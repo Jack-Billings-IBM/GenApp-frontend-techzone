@@ -13,7 +13,7 @@ app.appendChild(logo);
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'http://169.63.249.115:31387/genapp/motorPolicy/2/1', true);
+request.open('GET', 'http://api.wazi-developer-demo1.cp.fyre.ibm.com:31400/genapp/motorPolicy/2/1', true);
 request.setRequestHeader("Authorization", "Basic " + btoa("Deb3:password"));
 request.onload = function () {
 
